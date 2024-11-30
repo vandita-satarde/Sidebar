@@ -5,7 +5,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Portfolio</h1>
+    <div class="heading">Portfolio</div>
+
+    <i class="fa-solid fa-bars hamburger-menu" id="hamburger-menu" onclick="openSideBar()"></i>
+
+    <div class="sidebar" id="sidebar">
+        <div class="close-menu" onclick="closeSidebar()">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-house menu-icon"></i>
+            <a href="#" class="menu-text">Home</a>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-user menu-icon"></i>
+            <a href="#" class="menu-text">About</a>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-envelope menu-icon"></i>
+            <a href="#" class="menu-text">Contact</a>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-gear menu-icon"></i>
+            <a href="#" class="menu-text">Settings</a>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-sign-out menu-icon"></i>
+            <a href="#" class="menu-text">Log Out</a>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/10e1ccecc8.js" crossorigin="anonymous"></script>
     
     <script src="script.js"></script>
 </body>
